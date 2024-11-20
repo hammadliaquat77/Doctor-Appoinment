@@ -729,7 +729,7 @@ export default function DoctorForm() {
           )}
         />
 
-        <FormField
+        {/* <FormField
           control={form.control}
           name="profileImg"
           render={({ field }) => (
@@ -744,7 +744,7 @@ export default function DoctorForm() {
               <FormMessage />
             </FormItem>
           )}
-        />
+        /> */}
 
         <Button type="submit">Submit</Button>
       </form>
