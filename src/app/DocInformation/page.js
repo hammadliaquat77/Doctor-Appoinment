@@ -35,7 +35,7 @@ export default function DocInfo() {
               doctors.map((item, index) => {
                 return (
                   
-                      <div className="xl:w-1/3 md:w-1/2 p-4">
+                      <div key={index} className="xl:w-1/3 md:w-1/2 p-4">
                         <div className="border-2 border-gray-200 shadow-lg p-6 rounded-lg">
                           <div className="mb-6">
                             <Image
