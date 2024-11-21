@@ -12,10 +12,13 @@ import {
   import Logo from '../../public/Logo.png'
   import Link from "next/link"
 import { Button } from "./ui/button"
+import { auth } from "@/auth"
 
-function Header() {
+export default async function Header() {
 
-  const session = {name: 'hammad'};
+  const session = await auth();
+  console.log("session", session);
+  
   // const session = null;
   return (
     <div className="h-20 w-full  flex justify-between  bg-slate-100 p-6">
@@ -69,4 +72,3 @@ function Header() {
   )
 }
 
-export default Header
