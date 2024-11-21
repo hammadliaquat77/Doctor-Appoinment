@@ -30,10 +30,7 @@ export default function DocInfo() {
 
 
 
-          {<div className="flex flex-wrap -m-2">
-
-
-            
+          {<div className="flex flex-wrap -m-2"> 
             {
               doctors.map((item, index) => {
                 return (
