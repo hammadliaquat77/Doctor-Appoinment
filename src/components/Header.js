@@ -36,7 +36,7 @@ export default async function Header() {
         <MenubarTrigger>
             <div>
         <Avatar>
-      <AvatarImage src="https://github.com/shadcn.png" />
+      <AvatarImage src={session?.user?.image} />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
             </div>
