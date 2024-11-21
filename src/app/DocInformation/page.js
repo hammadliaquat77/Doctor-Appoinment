@@ -78,7 +78,7 @@ export default function DocInfo() {
                            <span className=''> {'$'} {item.fees}</span>
                           </div>
 
-                          <div className='mt-5 '>
+                          <div className='mt-5'>
                             <Link href={`/DocInformation/${item.id}`}>
                             <Button>See Details</Button>
                             </Link>
