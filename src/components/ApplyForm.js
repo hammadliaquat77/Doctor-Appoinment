@@ -487,7 +487,7 @@ export default function DoctorForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 mb-12">
         <div className="grid grid-cols-2 gap-5">
           <FormField
             control={form.control}
