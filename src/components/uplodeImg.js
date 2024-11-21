@@ -36,7 +36,7 @@ const thumbsContainer = {
     height: '100%'
   };
 
-function uplodeImg() {
+function UplodeImg() {
     const [files, setFiles] = useState([]);
     const {getRootProps, getInputProps} = useDropzone({
       accept: {
@@ -92,4 +92,4 @@ function uplodeImg() {
     );
 }
 
-export default uplodeImg
+export default UplodeImg
