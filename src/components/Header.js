@@ -12,7 +12,7 @@ import {
   import Logo from '../../public/Logo.png'
   import Link from "next/link"
 import { Button } from "./ui/button"
-import { auth } from "@/auth"
+import { auth, signOut } from "@/auth"
 
 export default async function Header() {
 
@@ -56,7 +56,16 @@ export default async function Header() {
           </Link>
     
           <MenubarSeparator />
-          <MenubarItem>LogOut</MenubarItem>
+
+         <form 
+          action={async () => {
+            "use server"
+            await signOut("google")
+          }}   
+         >
+          <button>Logout</button>
+        </form> 
+       
           <MenubarSeparator />
         </MenubarContent>
       </MenubarMenu>
