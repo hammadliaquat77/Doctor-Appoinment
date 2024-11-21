@@ -728,24 +728,6 @@ export default function DoctorForm() {
             </FormItem>
           )}
         />
-
-        {/* <FormField
-          control={form.control}
-          name="profileImg"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Profile Image</FormLabel>
-              <FormControl>
-                <div {...getRootProps()} className="border-2 border-dashed border-gray-300 rounded-lg p-6 cursor-pointer">
-                  <input {...getInputProps()} />
-                  <p>Drag 'n' drop some files here, or click to select files</p>
-                </div>
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        /> */}
-
         <Button type="submit">Submit</Button>
       </form>
     </Form>

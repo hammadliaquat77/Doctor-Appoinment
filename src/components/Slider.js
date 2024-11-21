@@ -6,7 +6,7 @@ import {
     CarouselNext,
     CarouselPrevious,
   } from "@/components/ui/carousel"
-import Image from 'next/image'
+  import Image from 'next/image'
 
 
 
@@ -18,7 +18,7 @@ import Image from 'next/image'
     <CarouselItem>
       <div className='flex justify-center container mx-auto'>
 
-      <Image 
+      <Image
       src={'https://images.unsplash.com/photo-1730407318819-6db610077721?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8'}
       height={200}
       width={200}
