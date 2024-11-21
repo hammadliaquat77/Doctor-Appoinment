@@ -33,56 +33,7 @@ export default function DocInfo() {
           {<div className="flex flex-wrap -m-2">
 
 
-            {
-  doctors.map((item) => {
-    return (
-      <div key={item.id} className="xl:w-1/3 md:w-1/2 p-4">
-        <div className="border-2 border-gray-200 shadow-lg p-6 rounded-lg">
-          <div className="mb-6">
-            <Image
-              alt="team"
-              className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-              src={item.image_url}
-              height={80}
-              width={80}
-            />
-          </div>
-          <h2 className="text-2xl text-gray-900 font-bold title-font mb-5 ">
-            {item.name}
-          </h2>
-          <div className="flex justify-between">
-            <p className="leading-relaxed font-bold">Specialization:</p>
-            <span>{item.specialization}</span>
-          </div>
-          <div className="flex justify-between">
-            <p className="leading-relaxed font-bold">Hospital:</p>
-            <span>{item.hospital}</span>
-          </div>
-          <div className="flex justify-between">
-            <p className="leading-relaxed font-bold">Gender:</p>
-            <span>{item.gender}</span>
-          </div>
-          <div className="flex justify-between">
-            <p className="leading-relaxed font-bold">AppointmentTime:</p>
-            <span>{item.appointmentTime}</span>
-          </div>
-          <div className="flex justify-between">
-            <p className="leading-relaxed font-bold">Fees:</p>
-            <span>{'$'} {item.fees}</span>
-          </div>
-          <div className="mt-5">
-            <Link href={`/DocInformation/${item.id}`}>
-              <Button>See Details</Button>
-            </Link>
-          </div>
-        </div>
-      </div>
-    );
-  })
-}
-
-
-{/*             
+            
             {
               doctors.map((item, index) => {
                 return (
@@ -140,7 +91,7 @@ export default function DocInfo() {
                       </div>
                 )
               })
-            } */}
+            }
 
 
           </div>}
