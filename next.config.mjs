@@ -26,6 +26,9 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'media.istockphoto.com',
             },
+            // {
+            //     hostname: 'https://lh3.googleusercontent.com/a/ACg8ocLxuaG1y5CDi80jAKursn4Z10eG04kPFWSNCKXljtH-2V1VLf4=s96-c'
+            // }
     ]
     }
 };

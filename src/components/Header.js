@@ -37,7 +37,7 @@ export default async function Header() {
             <div>
         <Avatar>
       <AvatarImage src={session?.user?.image} />
-      <AvatarFallback>CN</AvatarFallback>
+      <AvatarFallback>HA</AvatarFallback>
     </Avatar>
             </div>
     
