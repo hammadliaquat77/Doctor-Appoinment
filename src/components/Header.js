@@ -63,7 +63,10 @@ export default async function Header() {
             await signOut("google")
           }}   
          >
-          <button>Logout</button>
+            <MenubarItem>
+            LogOut
+          </MenubarItem>
+          {/* <button>Logout</button> */}
         </form> 
        
           <MenubarSeparator />
