@@ -22,6 +22,7 @@ export default async function LoginPage() {
         "use server"
         await signIn("google")
       }} >
+
       <div className="flex items-center space-x-5 justify-center">
         <h1 className="text-3xl font-bold">Login</h1>
       </div>
