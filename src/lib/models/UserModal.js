@@ -19,6 +19,6 @@ const userSchema = new Schema({
 });
 
 const UserModal =
-    mongoose.models?.users || mongoose.model("users", userSchema);
+    mongoose.models?.users || mongoose?.model("users", userSchema);
 
 export default UserModal;
