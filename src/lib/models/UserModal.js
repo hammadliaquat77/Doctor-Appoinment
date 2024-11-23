@@ -22,3 +22,4 @@ const UserModal =
     mongoose.models?.users || mongoose.model("users", userSchema);
 
 export default UserModal;
+
